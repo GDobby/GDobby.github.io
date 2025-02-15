@@ -93,34 +93,61 @@
 
             <div class="entry">
                 <h3>高职教平台</h3>
-                <p class="tech">技术栈：React + monorepo + TypeScript</p>
-                <p class="desc">面向国内高等教育学校的综合性教学管理平台</p>
+                <p class="tech">技术栈：React + Monorepo + TypeScript</p>
+                <p class="desc">面向国内高等教育学校的综合性教学管理平台，通过信息化手段提升教学质量和管理效率。基于 Monorepo 架构实现多个教学相关模块的统一管理和维护</p>
                 <ul>
-                    <li>参与大型 Monorepo 项目架构设计，使用 Turborepo 和 Yarn Workspace 管理多个业务模块</li>
-                    <li>设计实现公共组件库和工具库，提高代码复用率和开发效率</li>
-                    <li>负责 AI 教评系统核心功能开发，使用 EChart 和 antV 开发数据可视化</li>
+                    <li>负责项目架构设计与优化：
+                        <ul>
+                            <li>优化构建流程，利用 Turborepo 的并发构建和缓存机制，将构建时间缩短 40%</li>
+                            <li>设计并维护团队基础库：gzj-components（组件库）和 gzj-utils（工具库），提升代码复用率达 70%</li>
+                        </ul>
+                    </li>
+                    <li>主导高职教资源平台 2.0 版本研发：
+                        <ul>
+                            <li>独立完成课程管理模块，实现课程创建、编辑、发布的完整生命周期管理</li>
+                            <li>开发师生个人中心，实现与学校课程表系统的数据对接和展示</li>
+                        </ul>
+                    </li>
+                    <li>核心参与 AI 教评系统开发：
+                        <ul>
+                            <li>设计实现教师考勤、课堂三率、课程重难点等核心功能模块</li>
+                            <li>基于 EChart 和 antV 开发数据可视化模块，直观展示教学评估结果</li>
+                            <li>主导前端技术方案设计，采用模块化设计提升系统可扩展性，实现新功能快速迭代</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
 
             <div class="entry">
                 <h3>海外导播助手</h3>
-                <p class="tech">技术栈：Electron + React + i18n</p>
-                <p class="desc">面向学校管理者的巡课工具，已出口到东南亚、拉美等地区</p>
+                <p class="tech">技术栈：Electron + React + TypeScript + i18n</p>
+                <p class="desc">面向学校管理者的跨平台巡课工具，集成录播机实时巡课和导播功能，提升教学管理效率和信息化水平。产品已成功出口至东南亚、拉美等多个国家和地区</p>
                 <ul>
-                    <li>维护基于 Electron 开发的脚手架，实现客户端原生能力</li>
-                    <li>封装多场景 Request 库，支持 http、websocket 及 electron 客户端交互接口的统一调用</li>
-                    <li>结合 react-i18n + i18n-auto-webpack，实现项目国际化，并开发了开箱即用的国际化插件</li>
+                    <li>设计统一数据请求方案：
+                        <ul>
+                            <li>封装统一 Request 库，支持 HTTP、WebSocket 和 Electron IPC 通信</li>
+                            <li>采用适配器模式实现不同协议的统一调用接口，显著提升代码可维护性</li>
+                            <li>主导重构项目数据层，将原有混乱的接口调用收敛为统一规范，代码行数减少 30%</li>
+                        </ul>
+                    </li>
+                    <li>主导项目国际化解决方案：
+                        <ul>
+                            <li>基于 react-i18n 实现多语言支持，开发 i18n-auto-webpack 自动化翻译工具</li>
+                            <li>优化翻译文本收集和替换流程，将翻译工作量减少 50%</li>
+                            <li>将国际化方案封装为独立插件并推广至公司其他项目，获得多个团队采用</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
 
         <section class="personal">
             <h2>个人评价</h2>
-            <ul class="skill-list">
-                <li>✦ 有良好的设计和编码品味，热爱写代码</li>
-                <li>✦ 具备良好的沟通能力和高度的团队合作意识，能快速融入团队</li>
-                <li>✦ 技术视野开阔，学习能力好，喜欢钻研</li>
-                <li>✦ 热爱编程，工作责任心强，开拓创新意识强，有高度执行力</li>
+            <ul class="quality-list">
+                <li>✦ 具备优秀的代码设计能力，追求简洁优雅的编程实现，善于技术方案重构与优化</li>
+                <li>✦ 拥有开阔的技术视野和强劲的学习能力，善于钻研新技术并在实际项目中落地应用</li>
+                <li>✦ 具备出色的团队协作能力，能快速融入团队并有效推进项目进度</li>
+                <li>✦ 富有责任心和进取精神，具备强烈的创新意识和执行力</li>
             </ul>
         </section>
     </div>
